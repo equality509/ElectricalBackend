@@ -1,9 +1,8 @@
-import express from "express";
 import morgan from "morgan";
 import cors from "cors";
 import dotenv from "dotenv";
 import router from "./controllers/projects.js";
-
+import express from "express";
 // Get env variables
 dotenv.config();
 
