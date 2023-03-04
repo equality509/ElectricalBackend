@@ -10,6 +10,10 @@ dotenv.config();
 // Create express app
 const app = express();
 
+process.on('uncaughtException', (err) => {
+    console.error('Uncaught exception:', err);
+  });
+
 // Register middleware
 app.use(cors());
 app.use(morgan("dev"));
