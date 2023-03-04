@@ -1,6 +1,6 @@
 // Import express and bookmark model
 import express from "express";
-import Project from "../models/project.js";
+import Project from "../models/projects.js";
 
 // Express router
 const router = express.Router();
