@@ -6,14 +6,11 @@ const { Schema, model } = mongoose;
 
 // Student Schema
 const projectSchema = new Schema({
-    name: String,
-    gender: String,
-    enrollment: Number,
-    address: String,
-    phone: Number,
-    linkedin: String,
-    gpa: Number,
-    absences: String,
+    projectName: String,
+    location: String,
+    numberOfWorkers: Number,
+    manager: String,
+    
 
 }, {timestamps: true})
 
